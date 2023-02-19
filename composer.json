@@ -19,10 +19,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/laravel-sns-events.git"
+        }
+    ],
     "require": {
         "illuminate/http": "^8.83|^9.0.1|^10.0",
         "illuminate/support": "^8.83|^9.0.1|^10.0",
-        "rennokki/laravel-sns-events": "^7.1"
+        "rennokki/laravel-sns-events": "dev-l10-compatibility"
     },
     "autoload": {
         "psr-4": {
